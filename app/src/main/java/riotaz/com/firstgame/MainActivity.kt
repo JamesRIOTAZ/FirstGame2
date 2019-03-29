@@ -3,7 +3,7 @@ package riotaz.com.firstgame
 import android.content.Intent
 import android.os.Bundle
 import android.support.design.widget.Snackbar
-import android.support.v7.app.AppCompatActivity;
+import android.support.v7.app.AppCompatActivity
 import android.view.Menu
 import android.view.MenuItem
 import android.util.Log.d
@@ -19,7 +19,7 @@ class MainActivity : AppCompatActivity() {
         setSupportActionBar(toolbar)
 
         bigButton.setOnClickListener {
-            d("James", "Button was pressed")
+            d("Jim", "Button was pressed")
             startActivity(Intent(this, AboutMe::class.java))
         }
     }
