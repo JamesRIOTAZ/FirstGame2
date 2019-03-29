@@ -19,7 +19,7 @@ class MainActivity : AppCompatActivity() {
         setSupportActionBar(toolbar)
 
         bigButton.setOnClickListener {
-            d("Jim", "Button was pressed")
+            d("Jimmy", "Button was pressed")
             startActivity(Intent(this, AboutMe::class.java))
         }
     }
